@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+  background: #F8F9FA;
+  color: #1C2333;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Leaflet fix for Tailwind reset */
+.leaflet-container {
+  font-family: inherit;
+}
